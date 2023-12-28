@@ -1,10 +1,10 @@
 # Book Searcher
 
-[![GitHub stars](https://img.shields.io/github/stars/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/network)
-[![Release](https://img.shields.io/github/release/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/releases)
-[![GitHub issues](https://img.shields.io/github/issues/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/issues)
-[![GitHub license](https://img.shields.io/github/license/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/conge/book-searcher)](https://github.com/conge/book-searcher/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/conge/book-searcher)](https://github.com/conge/book-searcher/network)
+[![Release](https://img.shields.io/github/release/conge/book-searcher)](https://github.com/conge/book-searcher/releases)
+[![GitHub issues](https://img.shields.io/github/issues/conge/book-searcher)](https://github.com/conge/book-searcher/issues)
+[![GitHub license](https://img.shields.io/github/license/conge/book-searcher)](https://github.com/conge/book-searcher/blob/master/LICENSE)
 
 #### [中文版](https://github.com/conge/book-searcher/blob/master/README_zh.md)
 
@@ -169,4 +169,4 @@ You will need to export and maintain your own meta information for the books you
 
 ## License
 
-**book-searcher** © [The Book Searcher Authors](https://github.com/book-searcher-org/book-searcher/graphs/contributors), Released under the [BSD-3-Clause](./LICENSE) License.
+**book-searcher** © [The Book Searcher Authors](https://github.com/conge/book-searcher/graphs/contributors), Released under the [BSD-3-Clause](./LICENSE) License.
