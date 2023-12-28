@@ -6,7 +6,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/issues)
 [![GitHub license](https://img.shields.io/github/license/book-searcher-org/book-searcher)](https://github.com/book-searcher-org/book-searcher/blob/master/LICENSE)
 
-#### [中文版](https://github.com/mrdoing/book-searcher/blob/master/README_zh.md)
+#### [中文版](https://github.com/conge/book-searcher/blob/master/README_zh.md)
 
 Easy and blazing-fast book searcher, create and search your private library.
 
@@ -19,7 +19,7 @@ For individual users we recommend using the desktop version.
 
 ### Desktop
 
-**1. Download the pre-compiled desktop installer from [Release](https://github.com/mrdoing/book-searcher/releases)**
+**1. Download the pre-compiled desktop installer from [Release](https://github.com/conge/book-searcher/releases)**
 
 Or you can compile by yourself. Refer to [Build from source](#build-desktop-version) section for instructions.
 
@@ -39,7 +39,7 @@ Specify the `index` folder path in the settings menu.
 
 ### Cli
 
-**1. Download the pre-compiled binary from [Release](https://github.com/mrdoing/book-searcher/releases)**
+**1. Download the pre-compiled binary from [Release](https://github.com/conge/book-searcher/releases)**
 
 Or you can compile by yourself. Refer to [Build from source](#build-cli-version) section for instructions.
 
@@ -57,7 +57,7 @@ Access http://127.0.0.1:7070/ to use webui, or you can use the [original search 
 
 ```bash
 mkdir book-searcher && cd book-searcher
-wget https://raw.githubusercontent.com/mrdoing/book-searcher/master/docker-compose.yml
+wget https://raw.githubusercontent.com/conge/book-searcher/master/docker-compose.yml
 # Prepare the index: put csv files in the directory, and run the following command to create index
 docker-compose run --rm -v "$PWD:$PWD" -w "$PWD" book-searcher /book-searcher index -f *.csv
 # start book-searcher
@@ -70,9 +70,9 @@ Now `book-searcher` it will listen to `0.0.0.0:7070`.
 
 Deploying the frontend to Vercel / Netlify to speed up loading of static resources and provide a reverse proxy to the image service.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmrdoing%2Fbook-searcher%2Ftree%2Fmaster%2Ffrontend&project-name=book-searcher&repository-name=book-searcher)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fconge%2Fbook-searcher%2Ftree%2Fmaster%2Ffrontend&project-name=book-searcher&repository-name=book-searcher)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mrdoing/book-searcher&base=frontend)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/conge/book-searcher&base=frontend)
 
 ### Original Search Api
 
